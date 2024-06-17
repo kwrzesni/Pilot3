@@ -1,0 +1,33 @@
+STM32F103CBT6: https://jlcpcb.com/partdetail/Stmicroelectronics-STM32F103CBT6/C8304
+STM32F103C8T6: https://jlcpcb.com/partdetail/Stmicroelectronics-STM32F103C8T6/C8734
+X50328MSB2GI: https://jlcpcb.com/partdetail/Yxc-X50328MSB2GI/C115962
+Flash 128MB: https://jlcpcb.com/partdetail/WinbondElec-W25Q128JVSIQ/C97521
+Eeprom 512Kb: https://jlcpcb.com/partdetail/Zetta-ZD24C512ASSGMB/C918274
+5V boost converter: https://jlcpcb.com/partdetail/TorexSemicon-XC9141A50CMRG/C2469138
+3.3V LVR: https://jlcpcb.com/partdetail/Yongyutai-AMS1117_33/C2891839
+JST 1.5mm 3P: https://jlcpcb.com/partdetail/Jst-B3B_ZR_SM4_TF_LF_SN/C489717
+JST 1.5mm 8P: https://jlcpcb.com/partdetail/Jst-B8B_ZR_SM4_TF_LF_SN/C265368
+JST 1.25 2P: https://jlcpcb.com/partdetail/Jst-BM02B_GHS_TBT_LF_SN/C161690
+JST 1.25 3P: https://jlcpcb.com/partdetail/Jst-BM03B_GHS_TBT_LF_SN/C161691
+JST 1.25 4P: https://jlcpcb.com/partdetail/Jst-BM04B_GHS_TBT_LF_SN/C161692
+Schottky Barrier Diode: https://jlcpcb.com/partdetail/mdd_microdiode_electronics-SS14/C2480
+LED red: https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0603R/C2286
+4.7uH: https://jlcpcb.com/partdetail/ProdTech-PSPMAA0402_4R7MANP/C436517
+39nH: https://jlcpcb.com/partdetail/MurataElectronics-LQW15AN39NJ0ZD/C408157
+10uF: https://jlcpcb.com/partdetail/HonorElec-UD2E100M1010/C88697
+10uF: https://jlcpcb.com/partdetail/14236-CL31A106KBHNNNE/C13585
+4.7uF: https://jlcpcb.com/partdetail/20375-CL10A475KO8NNNC/C19666
+1uF: https://jlcpcb.com/partdetail/MurataElectronics-GRM155R61C105KA12D/C77006
+100nF: https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525
+10nF: https://jlcpcb.com/partdetail/15869-CL05B103KB5NNNC/C15195
+30pF: https://jlcpcb.com/partdetail/2010-0603CG300J500NT/C1658
+10kΩ: https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744
+2.2kΩ: https://jlcpcb.com/partdetail/26622-0402WGF2201TCE/C25879
+1kΩ: https://jlcpcb.com/partdetail/21904-0603WAF1001T5E/C21190
+1kΩ: https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702
+22Ω: https://jlcpcb.com/partdetail/25835-0402WGF220JTCE/C25092
+0Ω :https://jlcpcb.com/partdetail/Vo-0402_5_0/C2889348
+Switch 1A: https://jlcpcb.com/partdetail/gswitch-MK_12C02G025/C778186
+Switch 50mA: https://jlcpcb.com/partdetail/ShouHan-MSK12C02HB/C431541
+USB B micro: https://jlcpcb.com/partdetail/Molex-475890001/C114094
+USB ESD protection: https://jlcpcb.com/partdetail/TechPublic-USBLC62SC6/C2827654
