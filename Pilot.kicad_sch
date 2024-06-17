@@ -1,0 +1,132 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "65143c03-c3e9-4666-aa67-a83e602b6c00")
+	(paper "A4")
+	(title_block
+		(title "PILOT")
+		(date "2024-06-10")
+		(rev "1.0")
+	)
+	(lib_symbols)
+	(sheet
+		(at 13.97 119.38)
+		(size 269.24 45.72)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "536f6713-dd28-448f-b893-4a3a47ff95a4")
+		(property "Sheetname" "POWER"
+			(at 13.97 118.6684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER.kicad_sch"
+			(at 13.97 165.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Pilot"
+				(path "/65143c03-c3e9-4666-aa67-a83e602b6c00"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 13.97 67.31)
+		(size 269.24 45.72)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7d138bd2-1d4f-4c4a-9c5a-498f4d836674")
+		(property "Sheetname" "PILOT RT"
+			(at 13.97 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PILOT RT.kicad_sch"
+			(at 13.97 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Pilot"
+				(path "/65143c03-c3e9-4666-aa67-a83e602b6c00"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 13.97 15.24)
+		(size 269.24 45.72)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "90f1cc14-15f0-4d01-953c-f11eabbb7b58")
+		(property "Sheetname" "PILOT NRT"
+			(at 13.97 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Pilot NRT.kicad_sch"
+			(at 13.97 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Pilot"
+				(path "/65143c03-c3e9-4666-aa67-a83e602b6c00"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

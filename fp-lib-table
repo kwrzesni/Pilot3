@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "kwrzesni")(type "KiCad")(uri "${KIPRJMOD}/kwrzesni.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "kwrzesni_symblos")(type "KiCad")(uri "${KIPRJMOD}/kwrzesni_symblos.kicad_sym")(options "")(descr ""))
+)
