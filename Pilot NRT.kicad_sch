@@ -4586,10 +4586,6 @@
 		(uuid "76b4572b-a83b-4e5f-906e-d6abee6d0f69")
 	)
 	(no_connect
-		(at 71.12 163.83)
-		(uuid "cc4b95cc-ef2c-4292-86e0-0c9eee12c81d")
-	)
-	(no_connect
 		(at 266.7 135.89)
 		(uuid "cfdf08fe-29be-43e2-bdfb-897824e6eaaf")
 	)
@@ -6717,28 +6713,6 @@
 			)
 		)
 	)
-	(global_label "BACK_BUTTON"
-		(shape input)
-		(at 71.12 168.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0e61be5a-3cb3-459b-a184-458aa990db5f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.0719 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LEFT_BUTTON"
 		(shape input)
 		(at 104.14 115.57 0)
@@ -6827,28 +6801,6 @@
 			)
 		)
 	)
-	(global_label "PAGE_DOWN_BUTTON"
-		(shape input)
-		(at 71.12 171.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "16b9771e-5192-47e0-b4c8-053fd3f5e447")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.8429 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "DOWN_BUTTON"
 		(shape input)
 		(at 153.67 97.79 180)
@@ -6862,28 +6814,6 @@
 		(uuid "273e881e-01a6-47c7-a913-4b870efccb8a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 137.1381 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "HOME_BUTTON"
-		(shape input)
-		(at 71.12 166.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2e4e3557-9ee3-4f27-b17c-7e176cc2c826")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.7091 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6972,6 +6902,28 @@
 		(uuid "4042386d-bc73-4060-ace1-c4f51f98cec2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 184.8538 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FLASH_CS"
+		(shape input)
+		(at 71.12 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "45d54d51-e13f-44a6-b011-d70d763a5a79")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 58.9424 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7223,6 +7175,28 @@
 			)
 		)
 	)
+	(global_label "PAGE_UP_BUTTON"
+		(shape input)
+		(at 71.12 171.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ed97daa-504e-42db-827f-8c29ec8a619a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.6248 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "TOUCHSCREEN_RESET"
 		(shape input)
 		(at 71.12 148.59 180)
@@ -7421,28 +7395,6 @@
 			)
 		)
 	)
-	(global_label "PAGE_UP_BUTTON"
-		(shape input)
-		(at 71.12 173.99 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7e89a7ae-7035-43ce-8a95-9b28dc96743c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.6248 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ON_BUTTON"
 		(shape input)
 		(at 73.66 50.8 180)
@@ -7571,6 +7523,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BACK_BUTTON"
+		(shape input)
+		(at 71.12 166.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9659c7ef-27f1-4608-aff8-50b9d2d0a1e3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.0719 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7971,6 +7945,28 @@
 			)
 		)
 	)
+	(global_label "HOME_BUTTON"
+		(shape input)
+		(at 71.12 173.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d9b8ca70-2d39-4737-88b1-eb983c091d64")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.7091 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C1_SDA"
 		(shape input)
 		(at 222.25 25.4 180)
@@ -8094,6 +8090,28 @@
 		(uuid "e7f1b5c2-80fc-48da-9d84-014ce9b959da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 250.8938 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PAGE_DOWN_BUTTON"
+		(shape input)
+		(at 71.12 168.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eafac378-b9af-4875-b9ac-556579ea5804")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 48.8429 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9740,7 +9758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "flash_cs"
 			(at 248.92 58.42 0)
 			(effects
 				(font
