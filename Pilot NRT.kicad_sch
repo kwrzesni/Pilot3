@@ -6603,6 +6603,28 @@
 		)
 		(uuid "f8949e71-cf0a-496f-b9b1-fd9156456cd5")
 	)
+	(global_label "UP_BUTTON"
+		(shape input)
+		(at 104.14 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "01f4a40e-edb2-4a6a-b476-4f15bddd026e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.89 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB1+"
 		(shape input)
 		(at 210.82 135.89 0)
@@ -6616,50 +6638,6 @@
 		(uuid "0386fb2c-7ca2-44a9-a387-7533b5d967cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 220.3971 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MENU_BUTTON"
-		(shape input)
-		(at 104.14 128.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "05618e8b-11d7-4bee-9b6d-ef2ad76d78ee")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.5509 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RIGHT_BUTTON"
-		(shape input)
-		(at 104.14 110.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "05853d48-4fc1-46f7-ad1a-582354e01ee9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.7324 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6713,28 +6691,6 @@
 			)
 		)
 	)
-	(global_label "LEFT_BUTTON"
-		(shape input)
-		(at 104.14 115.57 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "129d0d2f-1f8c-4bbc-a34d-76dd63211d56")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.5228 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "I2C1_SCL"
 		(shape input)
 		(at 222.25 20.32 180)
@@ -6770,6 +6726,28 @@
 		(uuid "14896f4c-1469-4211-a5a2-d2d38a51a524")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 255.4296 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RIGHT_BUTTON"
+		(shape input)
+		(at 71.12 168.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "14a331fe-e717-4251-8dd6-099fc4708e7a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.5276 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6907,6 +6885,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PAGE_UP_BUTTON"
+		(shape input)
+		(at 104.14 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "45553ed9-ed07-41b1-bad4-30eafa8d3f1f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.6352 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7087,6 +7087,28 @@
 			)
 		)
 	)
+	(global_label "PAGE_DOWN_BUTTON"
+		(shape input)
+		(at 104.14 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e03896c-c4da-4c56-913c-593a8c1d66fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.4171 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB1_5V"
 		(shape input)
 		(at 205.74 128.27 90)
@@ -7153,7 +7175,7 @@
 			)
 		)
 	)
-	(global_label "OK_BUTTON"
+	(global_label "BACK_BUTTON"
 		(shape input)
 		(at 104.14 118.11 0)
 		(fields_autoplaced yes)
@@ -7163,9 +7185,9 @@
 			)
 			(justify left)
 		)
-		(uuid "5bc73f2b-b646-41ac-9949-fa4252319aba")
+		(uuid "5e8fddd6-722b-4c90-9fb0-d56f7abc8c7f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.89 118.11 0)
+			(at 120.1881 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7175,24 +7197,24 @@
 			)
 		)
 	)
-	(global_label "PAGE_UP_BUTTON"
+	(global_label "HOME_BUTTON"
 		(shape input)
-		(at 71.12 171.45 180)
+		(at 104.14 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "5ed97daa-504e-42db-827f-8c29ec8a619a")
+		(uuid "6259a11f-f439-44c3-a5c5-bfe1bddbb95f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.6248 171.45 0)
+			(at 120.5509 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7210,6 +7232,28 @@
 		(uuid "6f65b001-df51-47df-b299-6a36e6d5be83")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 47.815 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OK_BUTTON"
+		(shape input)
+		(at 71.12 171.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6fc6f690-f9ad-43c1-afc9-8fd80126fa2e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.37 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7237,28 +7281,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DOWN_BUTTON"
-		(shape input)
-		(at 104.14 113.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7224f9b0-079b-44d4-96ae-06c6842c56e3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.6719 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -7527,28 +7549,6 @@
 			)
 		)
 	)
-	(global_label "BACK_BUTTON"
-		(shape input)
-		(at 71.12 166.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9659c7ef-27f1-4608-aff8-50b9d2d0a1e3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.0719 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "I2C1_SCL"
 		(shape input)
 		(at 269.24 101.6 0)
@@ -7769,6 +7769,28 @@
 			)
 		)
 	)
+	(global_label "DOWN_BUTTON"
+		(shape input)
+		(at 71.12 166.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c91ea96b-888c-4c9f-905d-88913faf095f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.5881 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LCD_LED"
 		(shape input)
 		(at 71.12 161.29 180)
@@ -7945,28 +7967,6 @@
 			)
 		)
 	)
-	(global_label "HOME_BUTTON"
-		(shape input)
-		(at 71.12 173.99 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d9b8ca70-2d39-4737-88b1-eb983c091d64")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.7091 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "I2C1_SDA"
 		(shape input)
 		(at 222.25 25.4 180)
@@ -8099,28 +8099,6 @@
 			)
 		)
 	)
-	(global_label "PAGE_DOWN_BUTTON"
-		(shape input)
-		(at 71.12 168.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "eafac378-b9af-4875-b9ac-556579ea5804")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.8429 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "I2C1_SDA"
 		(shape input)
 		(at 40.64 153.67 180)
@@ -8165,6 +8143,50 @@
 			)
 		)
 	)
+	(global_label "MENU_BUTTON"
+		(shape input)
+		(at 104.14 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f159afe3-aadc-4ef2-a482-0cfaa87328d6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.5509 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LEFT_BUTTON"
+		(shape input)
+		(at 71.12 173.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f1db93bc-0802-4398-bb7a-b9558312ad27")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.7372 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USART1_TX1"
 		(shape input)
 		(at 147.32 130.81 0)
@@ -8178,28 +8200,6 @@
 		(uuid "f59ea073-09bd-4374-8095-ee51be6df9a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 161.7351 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UP_BUTTON"
-		(shape input)
-		(at 104.14 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f827900b-399a-4a7d-b91d-c690e293b48e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.89 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8573,7 +8573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 248.92 24.13 0)
 			(effects
 				(font
@@ -9758,7 +9758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "flash_cs"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 248.92 58.42 0)
 			(effects
 				(font
@@ -10834,7 +10834,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 213.36 110.49 0)
 			(effects
 				(font
@@ -11644,7 +11644,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 205.74 110.49 0)
 			(effects
 				(font
@@ -11979,7 +11979,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 162.56 26.67 0)
 			(effects
 				(font
@@ -14915,7 +14915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3VA"
+		(property "Value" "+3.3VA_1"
 			(at 147.32 16.51 0)
 			(effects
 				(font
@@ -15549,7 +15549,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 162.56 19.05 0)
 			(effects
 				(font
@@ -16775,7 +16775,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 242.57 73.66 0)
 			(effects
 				(font
