@@ -9463,7 +9463,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_Micro-B_Molex-105017-0001"
+		(property "Footprint" "kwrzesni:USB-B micro"
 			(at 270.51 132.08 0)
 			(effects
 				(font
@@ -12091,7 +12091,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 162.56 26.67 0)
 			(effects
 				(font
@@ -15866,7 +15866,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 162.56 19.05 0)
 			(effects
 				(font
