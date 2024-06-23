@@ -4030,126 +4030,6 @@
 				)
 			)
 		)
-		(symbol "power:+3.3VA"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3VA"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3VA_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3VA_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -4528,12 +4408,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f06d0f64-8867-42c9-a16a-808d18039188")
-	)
-	(junction
-		(at 147.32 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f09f8f10-4805-4a97-ab41-63a7929200bb")
 	)
 	(junction
 		(at 113.03 73.66)
@@ -5126,16 +5000,6 @@
 			(type default)
 		)
 		(uuid "54a72512-f76e-4667-9b30-58bbd72630d1")
-	)
-	(wire
-		(pts
-			(xy 147.32 20.32) (xy 147.32 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54ed51a7-eef6-4ba0-b964-9694b57c3c64")
 	)
 	(wire
 		(pts
@@ -6691,6 +6555,28 @@
 			)
 		)
 	)
+	(global_label "3.3VA_1"
+		(shape input)
+		(at 93.98 100.33 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "12a3c951-f295-4a39-9821-a0c94ac45dd0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.98 89.9667 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C1_SCL"
 		(shape input)
 		(at 222.25 20.32 180)
@@ -8209,6 +8095,28 @@
 			)
 		)
 	)
+	(global_label "3.3VA_1"
+		(shape input)
+		(at 147.32 22.86 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f855d923-611d-442b-88cd-37c29471dd21")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.32 12.4967 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C1_SCL"
 		(shape input)
 		(at 40.64 151.13 180)
@@ -8322,6 +8230,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 209.55 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
 			(at 209.55 68.58 0)
 			(effects
 				(font
@@ -8531,6 +8448,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25879"
+			(at 44.45 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "17425adf-dc36-40c2-97ed-70ea4e5ee15f")
 		)
@@ -8592,6 +8518,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 248.92 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22984"
 			(at 248.92 24.13 0)
 			(effects
 				(font
@@ -8737,6 +8672,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C161690"
+			(at 63.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "41b150d2-af93-48eb-ab00-cc759762ba13")
 		)
@@ -8808,6 +8752,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C161690"
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8608511f-257d-409a-a7fc-0babf65981e6")
 		)
@@ -8871,6 +8824,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 195.58 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C161690"
 			(at 195.58 43.18 0)
 			(effects
 				(font
@@ -9208,6 +9170,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25744"
+			(at 116.84 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9b1b0533-91e9-4b64-876d-22fe24158660")
 		)
@@ -9271,6 +9242,15 @@
 			)
 		)
 		(property "Description" "4Mbit Serial Flash memory, dual I/O SPI, SOIC-8 208mil"
+			(at 269.24 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C97521"
 			(at 269.24 68.58 0)
 			(effects
 				(font
@@ -9431,6 +9411,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C1525"
+			(at 276.86 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d5b8c31c-d744-4036-9cdb-2c8c8b9f4997")
 		)
@@ -9441,72 +9430,6 @@
 			(project "Pilot"
 				(path "/65143c03-c3e9-4666-aa67-a83e602b6c00/90f1cc14-15f0-4d01-953c-f11eabbb7b58"
 					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3VA")
-		(at 93.98 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "189d3a62-afd6-4c0d-b444-c1ee50f410b5")
-		(property "Reference" "#PWR043"
-			(at 93.98 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VA"
-			(at 93.98 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 93.98 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b4eb370c-3939-4741-a93d-56475786f29f")
-		)
-		(instances
-			(project ""
-				(path "/65143c03-c3e9-4666-aa67-a83e602b6c00/90f1cc14-15f0-4d01-953c-f11eabbb7b58"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -9559,6 +9482,15 @@
 			)
 		)
 		(property "Description" "USB Micro Type B connector"
+			(at 274.32 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C114094"
 			(at 274.32 130.81 0)
 			(effects
 				(font
@@ -9715,6 +9647,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C1525"
+			(at 118.11 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "59be390b-2134-445f-94cb-21b2709b8c4e")
 		)
@@ -9777,6 +9718,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 248.92 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22984"
 			(at 248.92 58.42 0)
 			(effects
 				(font
@@ -9855,6 +9805,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C1525"
+			(at 209.55 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5e3aa542-6a17-4cea-b484-22fd6606c967")
 		)
@@ -9914,6 +9873,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 213.36 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744"
 			(at 213.36 73.66 0)
 			(effects
 				(font
@@ -10058,6 +10026,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C1525"
+			(at 86.36 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c93fdd1d-384b-4342-9ec1-4afd512632c3")
 		)
@@ -10119,6 +10096,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 123.19 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25092"
 			(at 123.19 120.65 0)
 			(effects
 				(font
@@ -10260,6 +10246,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25744"
+			(at 140.97 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ca850404-a909-48fa-bd4f-bb9f670aea5f")
 		)
@@ -10322,6 +10317,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 59.69 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C19666"
 			(at 59.69 25.4 0)
 			(effects
 				(font
@@ -10455,6 +10459,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 121.92 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744"
 			(at 121.92 50.8 0)
 			(effects
 				(font
@@ -10661,6 +10674,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25744"
+			(at 162.56 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b757e0b1-ec0f-4dd0-a022-92bad8772dfa")
 		)
@@ -10721,6 +10743,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 30.48 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744"
 			(at 30.48 46.99 0)
 			(effects
 				(font
@@ -10861,6 +10892,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C21190"
+			(at 213.36 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a350ddd7-8cb9-40ee-88b2-e5b4470bc868")
 		)
@@ -10920,6 +10960,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 82.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744"
 			(at 82.55 50.8 0)
 			(effects
 				(font
@@ -10991,6 +11040,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 148.59 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C161690"
 			(at 148.59 66.04 0)
 			(effects
 				(font
@@ -11129,6 +11187,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 68.58 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C161690"
 			(at 68.58 43.18 0)
 			(effects
 				(font
@@ -11469,6 +11536,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25879"
+			(at 52.07 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a6c59278-b38f-4304-b43d-8f050ab52c44")
 		)
@@ -11531,6 +11607,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 158.75 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
 			(at 158.75 68.58 0)
 			(effects
 				(font
@@ -11671,6 +11756,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2286"
+			(at 205.74 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3de51e7d-5937-442f-a5fc-b94d827df164")
 		)
@@ -11730,6 +11824,15 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
+			(at 128.27 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C408157"
 			(at 128.27 22.86 0)
 			(effects
 				(font
@@ -11800,6 +11903,15 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
+			(at 167.64 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C115962"
 			(at 167.64 22.86 0)
 			(effects
 				(font
@@ -12006,6 +12118,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C1658"
+			(at 162.56 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fdb32142-5437-4051-881e-7a09641175fd")
 		)
@@ -12066,6 +12187,15 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 38.1 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C778186"
 			(at 38.1 46.99 0)
 			(effects
 				(font
@@ -12146,6 +12276,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25867"
+			(at 123.19 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4367db5d-b382-4b7a-abf9-8bc7335ca28e")
 		)
@@ -12216,6 +12355,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C15195"
+			(at 147.32 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2593ee37-4c76-4f58-8a76-6ecde86197b5")
 		)
@@ -12275,6 +12423,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 77.47 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744"
 			(at 77.47 73.66 0)
 			(effects
 				(font
@@ -12415,6 +12572,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25744"
+			(at 162.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bb15adc3-dc3b-4962-9b71-5c957a8732b2")
 		)
@@ -12539,6 +12705,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 166.37 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744"
 			(at 166.37 50.8 0)
 			(effects
 				(font
@@ -12684,6 +12859,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C161690"
+			(at 148.59 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0784c99e-468e-4b71-8055-2c2e74074c03")
 		)
@@ -12745,6 +12929,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 134.62 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25092"
 			(at 134.62 138.43 0)
 			(effects
 				(font
@@ -12820,6 +13013,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25744"
+			(at 38.1 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "58831b0f-a11d-4a05-aba8-93fea33cfa78")
 		)
@@ -12882,6 +13084,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 34.29 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
 			(at 34.29 68.58 0)
 			(effects
 				(font
@@ -13020,6 +13231,15 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 205.74 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2827654"
 			(at 205.74 133.35 0)
 			(effects
 				(font
@@ -13372,6 +13592,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C1525"
+			(at 110.49 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ff5eacd8-d70f-48be-920f-d631d932a310")
 		)
@@ -13432,6 +13661,15 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 38.1 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C778186"
 			(at 38.1 24.13 0)
 			(effects
 				(font
@@ -13503,6 +13741,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 179.07 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17168"
 			(at 179.07 26.67 0)
 			(effects
 				(font
@@ -13710,6 +13957,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25744"
+			(at 30.48 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "48637ba8-a724-42b4-9064-7e5d9803c4f6")
 		)
@@ -13773,6 +14029,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 199.39 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C161690"
 			(at 199.39 88.9 0)
 			(effects
 				(font
@@ -14110,6 +14375,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25092"
+			(at 134.62 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9676ed59-6ca3-4468-a15a-8727b808e827")
 		)
@@ -14172,6 +14446,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 213.36 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
 			(at 213.36 45.72 0)
 			(effects
 				(font
@@ -14243,6 +14526,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 274.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C265368"
 			(at 274.32 29.21 0)
 			(effects
 				(font
@@ -14331,6 +14623,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 73.66 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
 			(at 73.66 68.58 0)
 			(effects
 				(font
@@ -14473,6 +14774,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C1525"
+			(at 266.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e3386ccb-0a4a-413d-b3e7-16362cc6187c")
 		)
@@ -14532,6 +14842,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 213.36 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744"
 			(at 213.36 96.52 0)
 			(effects
 				(font
@@ -14610,6 +14929,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C77006"
+			(at 135.89 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4d9cab65-3919-4cb5-b0bd-8dbdbf2f9741")
 		)
@@ -14673,6 +15001,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 107.95 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C161690"
 			(at 107.95 43.18 0)
 			(effects
 				(font
@@ -14816,6 +15153,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C1525"
+			(at 162.56 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "405f888f-e9dd-49ad-9067-4a780eadeabc")
 		)
@@ -14898,71 +15244,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3VA")
-		(at 147.32 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b3971b5d-fd67-4496-a345-2061c8d22401")
-		(property "Reference" "#PWR079"
-			(at 147.32 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3VA_1"
-			(at 147.32 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 147.32 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f7ce338-5aa6-4174-9774-8921bfa3a7fd")
-		)
-		(instances
-			(project "Pilot"
-				(path "/65143c03-c3e9-4666-aa67-a83e602b6c00/90f1cc14-15f0-4d01-953c-f11eabbb7b58"
-					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Memory_EEPROM:AT24CS01-XHM")
 		(at 259.08 101.6 0)
 		(unit 1)
@@ -15009,6 +15290,15 @@
 			)
 		)
 		(property "Description" "I2C Serial EEPROM, 1Kb (128x8) with Unique Serial Number, TSSOP8"
+			(at 259.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C918274"
 			(at 259.08 101.6 0)
 			(effects
 				(font
@@ -15235,6 +15525,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C1525"
+			(at 99.06 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a25eeefe-cd4a-4237-b6a4-75e526ffb72e")
 		)
@@ -15360,6 +15659,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 68.58 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
 			(at 68.58 107.95 0)
 			(effects
 				(font
@@ -15503,6 +15811,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C161692"
+			(at 227.33 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5c86334e-3628-4023-9eb7-28d89e77885a")
 		)
@@ -15568,6 +15885,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 162.56 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1658"
 			(at 162.56 19.05 0)
 			(effects
 				(font
@@ -15711,6 +16037,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C1525"
+			(at 73.66 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ca85b3f4-fb7a-416c-a824-3e792e818271")
 		)
@@ -15782,6 +16117,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C161690"
+			(at 24.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a17c0599-cff8-4562-8608-26c4e9921ee0")
 		)
@@ -15845,6 +16189,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 102.87 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C161690"
 			(at 102.87 66.04 0)
 			(effects
 				(font
@@ -15982,6 +16335,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 199.39 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C161690"
 			(at 199.39 66.04 0)
 			(effects
 				(font
@@ -16321,6 +16683,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C8304"
+			(at 86.36 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "15"
 			(uuid "5f4ffcff-0484-4eed-b799-e7911237477a")
 		)
@@ -16529,6 +16900,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C1525"
+			(at 78.74 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f2fd3c4d-0015-48d8-8eff-1f91d8cb0f6a")
 		)
@@ -16665,6 +17045,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C1525"
+			(at 158.75 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cdb7797a-512e-4312-9c68-f2686a1b858d")
 		)
@@ -16727,6 +17116,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 113.03 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
 			(at 113.03 68.58 0)
 			(effects
 				(font
@@ -16802,6 +17200,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C22984"
+			(at 242.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a649afe2-902c-4000-ba2b-bf08bc235424")
 		)
@@ -16861,6 +17268,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 217.17 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744"
 			(at 217.17 50.8 0)
 			(effects
 				(font

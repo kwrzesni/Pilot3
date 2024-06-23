@@ -21,12 +21,14 @@ LED red: https://jlcpcb.com/partdetail/Hubei_KentoElec-KT0603R/C2286
 100nF: https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525
 10nF: https://jlcpcb.com/partdetail/15869-CL05B103KB5NNNC/C15195
 30pF: https://jlcpcb.com/partdetail/2010-0603CG300J500NT/C1658
+30kΩ: https://jlcpcb.com/partdetail/23711-0603WAF3002T5E/C22984
 10kΩ: https://jlcpcb.com/partdetail/26487-0402WGF1002TCE/C25744
 2.2kΩ: https://jlcpcb.com/partdetail/26622-0402WGF2201TCE/C25879
+1.5kΩ: https://jlcpcb.com/partdetail/26610-0402WGF1501TCE/C25867
 1kΩ: https://jlcpcb.com/partdetail/21904-0603WAF1001T5E/C21190
 1kΩ: https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702
 22Ω: https://jlcpcb.com/partdetail/25835-0402WGF220JTCE/C25092
-0Ω :https://jlcpcb.com/partdetail/Vo-0402_5_0/C2889348
+0Ω : https://jlcpcb.com/partdetail/17853-0402WGF0000TCE/C17168
 Switch 1A: https://jlcpcb.com/partdetail/gswitch-MK_12C02G025/C778186
 Switch 50mA: https://jlcpcb.com/partdetail/ShouHan-MSK12C02HB/C431541
 USB B micro: https://jlcpcb.com/partdetail/Molex-475890001/C114094

@@ -883,9 +883,9 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_Wuerth_450301014042"
+		(symbol "Switch:SW_SPDT"
 			(pin_names
-				(offset 1) hide)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -897,7 +897,7 @@
 					)
 				)
 			)
-			(property "Value" "SW_Wuerth_450301014042"
+			(property "Value" "SW_SPDT"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -905,8 +905,8 @@
 					)
 				)
 			)
-			(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
-				(at 0 -10.16 0)
+			(property "Footprint" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -914,7 +914,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/450301014042.pdf"
+			(property "Datasheet" "~"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -923,7 +923,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Switch slide, single pole double throw"
+			(property "Description" "Switch, single pole double throw"
 				(at 0 0 0)
 				(effects
 					(font
@@ -932,7 +932,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "changeover single-pole opposite-side-connection double-throw spdt ON-ON"
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
 				(at 0 0 0)
 				(effects
 					(font
@@ -941,16 +941,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SW*Wuerth*WS*SLTV*10x2.5x6.4*P2.54mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Wuerth_450301014042_0_1"
+			(symbol "SW_SPDT_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.4572)
@@ -997,7 +988,7 @@
 					)
 				)
 			)
-			(symbol "SW_Wuerth_450301014042_1_1"
+			(symbol "SW_SPDT_1_1"
 				(rectangle
 					(start -3.175 3.81)
 					(end 3.175 -3.81)
@@ -1010,9 +1001,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 2.54 180)
 					(length 2.54)
-					(name "B"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1028,9 +1019,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "C"
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1046,9 +1037,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at 5.08 -2.54 180)
 					(length 2.54)
-					(name "A"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1155,6 +1146,24 @@
 						)
 					)
 					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -8.89 1.27 0)
+					(length 2.54)
+					(name "ENB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1835,7 +1844,7 @@
 		(uuid "fc167930-803b-4a7d-8cdb-9ea86de9a778")
 	)
 	(no_connect
-		(at 60.96 27.94)
+		(at 60.96 22.86)
 		(uuid "e5180c3d-ea3d-467c-91bc-6f1891c64d55")
 	)
 	(wire
@@ -1887,6 +1896,16 @@
 			(type default)
 		)
 		(uuid "20cff3b4-1f6e-4ff1-baff-3b27c6d0305d")
+	)
+	(wire
+		(pts
+			(xy 60.96 27.94) (xy 71.12 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "212df9c4-6811-4a78-ba41-c5b1078c0b74")
 	)
 	(wire
 		(pts
@@ -1947,16 +1966,6 @@
 			(type default)
 		)
 		(uuid "6952b443-8439-4a91-bb08-c03921a92953")
-	)
-	(wire
-		(pts
-			(xy 60.96 22.86) (xy 71.12 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70280517-f544-47e0-8beb-7d54204fd34a")
 	)
 	(wire
 		(pts
@@ -2128,6 +2137,28 @@
 	)
 	(global_label "BAT+"
 		(shape input)
+		(at 71.12 22.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "05c1d9c4-dcdf-4359-936b-e6511273c84f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.2362 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BAT+"
+		(shape input)
 		(at 27.94 22.86 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2183,28 +2214,6 @@
 		(uuid "4de4e79b-0091-4849-b9da-af7d05cb9405")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 19.2096 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BAT+"
-		(shape input)
-		(at 50.8 25.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6f072c8c-1be5-4212-9044-a8e8d167724f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.9162 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2354,6 +2363,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2480"
+			(at 35.56 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b813414d-0908-42b4-b06d-5beb9f2fc94b")
 		)
@@ -2489,6 +2507,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2469138"
+			(at 222.25 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3bc35a02-119a-45ef-852a-73a96edd1e1c")
 		)
@@ -2566,6 +2593,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2891839"
+			(at 129.54 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6a57c77f-cc1e-4f9d-811d-2a5bfa64c48e")
 		)
@@ -2631,6 +2667,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 231.14 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C13585"
 			(at 231.14 31.75 0)
 			(effects
 				(font
@@ -2789,77 +2834,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Wuerth_450301014042")
-		(at 55.88 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "664e936c-f2e1-4c61-b3c7-24aa2c1bd3b8")
-		(property "Reference" "SW4"
-			(at 55.88 19.558 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Wuerth_450301014042"
-			(at 55.88 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
-			(at 55.88 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/450301014042.pdf"
-			(at 55.88 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch slide, single pole double throw"
-			(at 55.88 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "613807bd-c9bd-4bab-85b8-9cb900083f54")
-		)
-		(pin "2"
-			(uuid "9f4170ef-f858-4e6f-9bbe-3dc95f605e08")
-		)
-		(pin "1"
-			(uuid "cf78a90e-a4a5-4107-aaf5-80bd4c7e5d80")
-		)
-		(instances
-			(project ""
-				(path "/65143c03-c3e9-4666-aa67-a83e602b6c00/536f6713-dd28-448f-b893-4a3a47ff95a4"
-					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 212.09 44.45 0)
 		(unit 1)
@@ -2906,6 +2880,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 212.09 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C13585"
 			(at 212.09 44.45 0)
 			(effects
 				(font
@@ -2976,6 +2959,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small US symbol"
+			(at 120.65 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C88697"
 			(at 120.65 34.29 0)
 			(effects
 				(font
@@ -3254,6 +3246,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C88697"
+			(at 137.16 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "20510f47-8721-41da-9ea3-3f50f2273fe7")
 		)
@@ -3276,7 +3277,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8983e9ef-4d74-4f0a-b324-7cf2211b791b")
 		(property "Reference" "J21"
@@ -3314,6 +3315,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 22.86 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 22.86 25.4 0)
 			(effects
 				(font
@@ -3658,6 +3668,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C436517"
+			(at 233.68 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "75536201-cc0d-434d-969b-ff4315033baf")
 		)
@@ -3680,7 +3699,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c596a4e6-4550-4991-9760-0313f06411df")
 		(property "Reference" "U7"
@@ -3726,6 +3745,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 80.01 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "10"
 			(uuid "0996019b-f298-46cb-bbf2-cdab480e7b03")
 		)
@@ -3756,10 +3784,93 @@
 		(pin "5"
 			(uuid "e8cf5de2-a94d-4cf8-935d-8f9a46775b33")
 		)
+		(pin "11"
+			(uuid "719bfcf6-98de-4995-844e-3a8694b5f8a0")
+		)
 		(instances
 			(project ""
 				(path "/65143c03-c3e9-4666-aa67-a83e602b6c00/536f6713-dd28-448f-b893-4a3a47ff95a4"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 55.88 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ccb3ac5d-4bac-4011-96a4-f261dcc404ea")
+		(property "Reference" "SW4"
+			(at 55.626 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 55.88 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
+			(at 55.88 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 55.88 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C778186"
+			(at 55.88 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "941e9683-669c-4dd7-90a3-f74b4691af8a")
+		)
+		(pin "3"
+			(uuid "eeaa879d-211d-4a01-aa9b-ad2fafa882db")
+		)
+		(pin "1"
+			(uuid "410cab52-a75b-4a84-99eb-30b89ec0b352")
+		)
+		(instances
+			(project "Pilot"
+				(path "/65143c03-c3e9-4666-aa67-a83e602b6c00/536f6713-dd28-448f-b893-4a3a47ff95a4"
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -3809,6 +3920,15 @@
 			)
 		)
 		(property "Description" "40V 1A Schottky Diode, SMA"
+			(at 35.56 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C2480"
 			(at 35.56 33.02 0)
 			(effects
 				(font
@@ -3893,6 +4013,73 @@
 			(project "Pilot"
 				(path "/65143c03-c3e9-4666-aa67-a83e602b6c00/536f6713-dd28-448f-b893-4a3a47ff95a4"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 25.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea314913-de9b-4a4c-81db-9ad56577e43f")
+		(property "Reference" "#PWR046"
+			(at 44.45 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 46.99 25.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b702a8a7-fca7-4cb8-a5a3-3f410f9ff39b")
+		)
+		(instances
+			(project "Pilot"
+				(path "/65143c03-c3e9-4666-aa67-a83e602b6c00/536f6713-dd28-448f-b893-4a3a47ff95a4"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
